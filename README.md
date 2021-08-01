@@ -5,4 +5,7 @@
 #### ***WEBSITE*** information -> Default Domain : '[themysterygood.netlify.app](https://themysterygood.netlify.app)' 
 Custom Damain: **NOT purchased**
 
+## Extra Support
+### `git init`
+
 
