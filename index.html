@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mystery Good</title>
+<meta charset="utf-8">
+<style>
+.scroll-left {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+
+.font {
+ font-family: monospace;
+ font-size: 22px;
+}
+
+.font2 {
+ font-family: monospace;
+ font-size: 17px;
+}
+.scroll-left p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 10s linear infinite;
+ -webkit-animation: scroll-left 10s linear infinite;
+ animation: scroll-left 10s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+.button {
+ border: none;
+ border-width: 3px;
+ font-family: monospace;
+ background-color: #ffffff;
+ cursor: pointer;
+ border-radius: 5%;
+ height: 35px;
+ width: 170px;
+ transition-duration: 0.2s;
+ font-size: 15px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-top: 15px;
+ margin-bottom: 10px;
+ border-top-color: #555555;
+ border-bottom-color: #555555;
+ border-left-color: #555555;
+ border-right-color: #555555;
+}
+
+.font1 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.division {
+ background-color: #DCDCDC;
+ border-radius: 10px;
+ margin: 10px 10px;
+ padding: 6px 10px;
+ width: 500px;
+}
+
+.button1 {
+ background: transparent;
+ border-radius: 5px;
+ shadow: 10px 10px 10px #BEBEBE;
+ border: 2px solid gray;
+}
+
+.button1:hover {
+ background-color: #C8C8C8;
+ color: #ffffff;
+ border-radius: 5px;
+ border: none;
+ box-shadow: 2px 2px 2px #BEBEBE;
+}
+
+.font3 {
+ margin-top: 3px;
+ margin-left: 10px;
+ margin-right: 2px; 
+ margin-bottom: 5px;
+ font-family: monospace;
+ font-size: 20px;
+}
+
+.div1 {
+ background-color: #DCDCDC;
+ border-radius: 10px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 40px;
+ padding-bottom: 14px;
+ padding-top: 14px;
+ padding-left: 21px; 
+ padding-right: 20px; 
+ width: 345px;
+}
+
+.font4 {
+ font-family: monospace;
+ font-size: 17.5px;
+}
+
+.font5 {
+ font-family: monospace;
+ font-size: 14px;
+ margin-right: 10px; 
+}
+</style>
+
+</head>
+<body>
+
+<h1 class="font">NEXT CLUE</h1>
+<h3 class="font4">Here Is The LINK: <div class="div1"><a class="font3" target="_blank" href="https://discord.gg/DMD89zz7DX"><b>https://discord.gg/DMD89zz7DX </div></b></a> For Your Next Clue!</p><br>
+<div class="division">
+<h3 class="font2 font1">DOWNLOAD <b>'MYSTERYGOOD.zip'</b> containing a Minecraft Add-On! (.mcaddon)</h3>
+<h3 class="font1"> Click the BUTTON below...<br>
+<form method="get" action="MYSTERYGOOD.zip">
+<button class="button button1"><b>MysteryGood.zip<b></button>
+<h3 class="font5"><b>Tip: RIGHT click (on the LOCATION of the .zip file. Select an empty space) > (and click) Refresh</b></h3>
+<h3 class="font5"><b>If the (.zip) file doesn't appear.</b></h3> 
+</div>
+
+</form>
+
+<div class="scroll-left">
+<p>NEXT CLUE...</p>
+</div>
+
+</body>
+</html>
