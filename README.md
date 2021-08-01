@@ -10,7 +10,7 @@ Custom Damain: **NOT purchased**
 #### Fork this repository (repo)
 ###### **git clone {Your Copy Of My Repository}**
 ###### **git remote add origin https://github.com/Panos-Jr/The_Mystery_Good.git**
-### **Make your changes (on your master branch : or other branch, )**
+### **Make your changes (on your master branch : or other branch)**
 #### To create a branch and move to the created branch, type 
 #####`git checkout -b branch_name`
 #### `git branch branch_name` will create the branch called, **branch_name**.
