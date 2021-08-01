@@ -5,9 +5,10 @@
 #### ***WEBSITE*** information -> Default Domain : '[themysterygood.netlify.app](https://themysterygood.netlify.app)' 
 Custom Damain: **NOT purchased**
 
-## Extra Support
+## Extra Support - commands to use. 
 #### `git init`
-###### **git clone https://github.com/Panos-Jr/The_Mystery_Good.git**
+#### Fork this repository (repo)
+###### **git clone {Your Copy Of My Repository}**
 ###### **git remote add origin https://github.com/Panos-Jr/The_Mystery_Good.git**
 ### **Make your changes (on your master branch : or other branch, )**
 #### To create a branch and move to the created branch, type 
