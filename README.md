@@ -6,6 +6,13 @@
 Custom Damain: **NOT purchased**
 
 ## Extra Support
-### `git init`
+#### `git init`
+#### `git clone https://github.com/Panos-Jr/The_Mystery_Good.git`
+#### `git remote add origin https://github.com/Panos-Jr/The_Mystery_Good.git`
+#### **Make your changes (on your master branch : or other)**
+#### `git push -u origin master`
+
+
+
 
 
