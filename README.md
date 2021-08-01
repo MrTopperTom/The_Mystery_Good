@@ -1,4 +1,4 @@
-## The_Mystery_Good -> ***REPO***
+## The_Mystery_Good -> **REPO**
 ### **HOSTED** : using Netlify - linked to **[GitHub](https://github.com/Panos-Jr/The_Mystery_Good)**. 
 ### You have been given the privilege to ameliorate 'index.html'  
 #### WEBSITE information -> Default Domain : '[themysterygood.netlify.app](https://themysterygood.netlify.app)' 
